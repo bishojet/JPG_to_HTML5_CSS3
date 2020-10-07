@@ -28,12 +28,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #fdebd0;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #fdebd0;
   text-shadow: none;
 }
 
@@ -91,6 +91,7 @@ body{
   font-family: arial;
   font-size: 15px;
   line-height: 20px;
+  background:  #fdebd0;
 }
 
 .templete{
@@ -135,13 +136,33 @@ body{
   color: #f26722;
 }
 
-.main_section {}
-.sub_head {}
-.sub_head h2 {}
-.sub_head h3 {}
-.content {}
-.description {}
-.description p {}
+.main_section {
+  background: #fff;
+}
+.sub_head {
+  margin: 30px 50px;
+  border-bottom: 2px dotted #ccc;
+}
+.sub_head h2 {
+  font-size: 40px;
+  color: #333;
+}
+.sub_head h3 {
+  font-size: 24px;
+  color: #a5a5a5;
+}
+.content {
+  margin: 0 50px;
+}
+.description {
+  text-align: center;
+}
+.description p {
+  color: #333;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 28px;
+}
 .mid_content {}
 .main_left {}
 .main_left h2{}
