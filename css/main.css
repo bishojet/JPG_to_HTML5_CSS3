@@ -103,6 +103,63 @@ body{
 }
 
 
+.head_section {
+  height: 110px;
+  background-color: #404040;
+}
+.title {
+  float: left;
+  width: 510px;
+  margin-left: 50px;
+  margin-top: 8px;
+}
+.title h2 {
+  color: #d86225;
+  font-size: 40px;
+}
+.extra {
+  color: #fff;
+}
+.main_menu {
+  float: right;
+  width: 400px;
+  margin-top: 45px;
+  color: #f26722;
+}
+.main_menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.main_menu a:hover, #active {
+  color: #f26722;
+}
+
+.main_section {}
+.sub_head {}
+.sub_head h2 {}
+.sub_head h3 {}
+.content {}
+.description {}
+.description p {}
+.mid_content {}
+.main_left {}
+.main_left h2{}
+.main_left p{}
+.mid_image {}
+.mid_image img {}
+.post {}
+.same_article {}
+.same_article h2 {}
+.same_article p {}
+.post_link {}
+.post_link a {}
+.footer_section {}
+.footer_section p {}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
