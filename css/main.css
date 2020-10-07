@@ -87,7 +87,20 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  font-family: arial;
+  font-size: 15px;
+  line-height: 20px;
+}
 
+.templete{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.clear{
+  overflow: hidden;
+}
 
 
 /* ==========================================================================
