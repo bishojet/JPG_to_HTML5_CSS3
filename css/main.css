@@ -163,12 +163,26 @@ body{
   font-weight: normal;
   line-height: 28px;
 }
-.mid_content {}
-.main_left {}
+.mid_content {
+  height: 260px;
+  background-color: #ddd;
+}
+.main_left {
+  float: left;
+  width: 370px;
+  margin-right: 35px;
+  padding: 20px 40px;
+  text-align: center;
+
+}
 .main_left h2{}
 .main_left p{}
-.mid_image {}
-.mid_image img {}
+.mid_image {
+  width: 345px;
+}
+.mid_image img {
+  width: 345px;
+}
 .post {}
 .same_article {}
 .same_article h2 {}
