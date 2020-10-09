@@ -110,7 +110,7 @@ body{
 }
 .title {
   float: left;
-  width: 510px;
+  width: 450px;
   margin-left: 50px;
   margin-top: 8px;
 }
@@ -123,14 +123,16 @@ body{
 }
 .main_menu {
   float: right;
-  width: 400px;
+  width: 460px;
   margin-top: 45px;
   color: #f26722;
 }
 .main_menu a {
   text-decoration: none;
-  color: #fff;
+  color: #b9b9b9;
   font-weight: bold;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .main_menu a:hover, #active {
   color: #f26722;
@@ -140,8 +142,9 @@ body{
   background: #fff;
 }
 .sub_head {
-  margin: 30px 50px;
+  margin: 10px 50px 25px;
   border-bottom: 2px dotted #ccc;
+  padding-bottom: 15px;
 }
 .sub_head h2 {
   font-size: 40px;
@@ -152,7 +155,7 @@ body{
   color: #a5a5a5;
 }
 .content {
-  margin: 0 50px;
+  margin: -17px 50px auto;
 }
 .description {
   text-align: center;
