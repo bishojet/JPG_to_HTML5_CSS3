@@ -165,7 +165,11 @@ body{
 }
 .mid_content {
   height: 260px;
-  background-color: #ddd;
+background: #f26722; /* Old browsers */
+background: -moz-linear-gradient(left,  #f26722 0%, #f29668 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #f26722 0%,#f29668 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #f26722 0%,#f29668 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26722', endColorstr='#f29668',GradientType=1 ); /* IE6-9 */
 }
 .main_left {
   float: left;
